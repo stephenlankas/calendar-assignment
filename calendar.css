@@ -1,0 +1,86 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	background-color:#7BA3BE;
+	font-family:verdana;
+	font-size:12px;
+}
+
+h1
+{
+	font:18pt verdana;
+	margin-left:10px;
+}
+
+#event_table
+{
+	border-collapse:collapse;
+	border-top:5px;
+	margin:5px 10px 10px;
+}
+
+#event_table .table_header
+{
+	color:#000;
+	font-size:24px;
+	font-weight:400;
+	padding-left:5px;
+	text-align:left;
+	text-decoration:none;
+	width:220px;
+}
+
+#event_table .even_row
+{
+	background-color:#86cefd;
+	height:40px;
+}
+
+#event_table .odd_row
+{
+	background-color:#BCE4FE;
+	height:40px;
+}
+
+#event_table .hr_td
+{
+	text-align:right;
+	width:60px;
+}
+
+.container
+{
+	background-color:#FFF;
+	border:5px solid #000;
+	font:12px Verdana, Arial, Helvetica, sans-serif;
+	margin:20px auto;
+	padding:0;
+	width:760px;
+}
+
+#next
+{
+	float:right;
+	margin-bottom:10px;
+	margin-right:10px;
+}
+
+#prev
+{
+	float:left;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+#today
+{
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	width:100px;
+}
